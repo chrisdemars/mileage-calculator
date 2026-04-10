@@ -9,7 +9,7 @@ export function GasPriceDisplay() {
   if (loading) {
     return (
       <div className="flex items-center gap-2 text-sm text-gray-500">
-        <Spinner size="sm" /> Fetching MI gas price…
+        <Spinner size="sm" /> Fetching gas price…
       </div>
     );
   }
@@ -31,7 +31,7 @@ export function GasPriceDisplay() {
         {formatGasPrice(price)}
       </span>
       <span className="text-gray-500 dark:text-gray-400">
-        MI avg · {date ? `as of ${date}` : ''} · EIA
+        Midwest avg · {date ? `as of ${date}` : ''} · EIA
       </span>
     </div>
   );

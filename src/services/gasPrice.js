@@ -1,4 +1,4 @@
-const SERIES_ID = 'EMM_EPMRU_PTE_SMI_DPG'; // Michigan regular unleaded
+const SERIES_ID = 'EMM_EPMR_PTE_R20_DPG'; // Midwest regular gasoline (closest to Michigan — no state-level series available)
 
 export async function fetchMichiganGasPrice() {
   const apiKey = import.meta.env.VITE_EIA_API_KEY;
